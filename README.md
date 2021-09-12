@@ -1,6 +1,6 @@
 [![GitHub stars](https://badgen.net/github/stars/R4yGM/NorthKoreaScans)](https://github.com/R4yGM/NorthKoreaScans)
 [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/WmzasES)
-[![Maintenance](https://img.shields.io/badge/Running%20VPS%20scanners-4-blue.svg)](https://github.com/R4yGM/NorthKoreaScans)
+[![Maintenance](https://img.shields.io/badge/Running%20VPS%20scanners-5-blue.svg)](https://github.com/R4yGM/NorthKoreaScans)
 
 <br />
 <p align="center">
