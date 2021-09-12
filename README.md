@@ -68,7 +68,7 @@ on overall it's pretty self explanatory, it's just a normal date with at the end
 
 ### VPS servers
 
-this repo contains scans that are made from vps servers situated in different countries that are : US,UK,SG,DE
+this repo contains scans that are made from vps servers situated in different countries that are : US,UK,SG,DE,NL
 
 
 ## Install all the scans
