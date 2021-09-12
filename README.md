@@ -90,6 +90,7 @@ If you want to contribute by adding some of your own scans into the repo it woul
 4. Push to the Branch (`git push origin feature/yourscan`)
 5. Open a Pull Request
 
+(if you don't know how to replicate the scan check the scanner.sh file on the repo which is used by the vps servers automatically, also the nmap scan doesn't exactly have to be the same, like you can change the amount of ports to scan and etc..)
 
 
 ## License
