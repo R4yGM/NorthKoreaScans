@@ -4,7 +4,7 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/R4yGM/NorthKoreaScans">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/280px-Flag_of_North_Korea.svg.png" alt="Logo" width="160" height="80">
   </a>
 
@@ -13,9 +13,9 @@
   <p align="center">
     Collection of port scans about the North Korean IPv4 subnets from different VPS around the world 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>View this on github pages »</strong></a>
+    <a href="https://r4ygm.github.io/NorthKoreaScans/"><strong>View this on github pages »</strong></a>
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Browse the scans</a>
+    <a href="https://github.com/R4yGM/NorthKoreaScans">Browse the scans</a>
     ·
     <a href="https://github.com/R4yGM/NorthKoreaScans/issues/new">Report an issue</a>
     ·
