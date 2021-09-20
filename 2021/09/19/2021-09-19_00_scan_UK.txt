@@ -1,0 +1,830 @@
+# Nmap 7.80 scan initiated Sun Sep 19 00:00:04 2021 as: nmap -p 1-10000 -sV -O -T4 -v -oN /root/scans/test/2021/09/19/2021-09-19_00_scan_UK.txt -n -Pn 175.45.176.0/22
+Nmap scan report for 175.45.176.0
+Host is up.
+All 10000 scanned ports on 175.45.176.0 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.1
+Host is up.
+All 10000 scanned ports on 175.45.176.1 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.2
+Host is up.
+All 10000 scanned ports on 175.45.176.2 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.3
+Host is up.
+All 10000 scanned ports on 175.45.176.3 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.4
+Host is up.
+All 10000 scanned ports on 175.45.176.4 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.5
+Host is up.
+All 10000 scanned ports on 175.45.176.5 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.6
+Host is up.
+All 10000 scanned ports on 175.45.176.6 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.7
+Host is up.
+All 10000 scanned ports on 175.45.176.7 are filtered
+Too many fingerprints match this host to give specific OS details
+
+adjust_timeouts2: packet supposedly had rtt of -662453 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -662453 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -691221 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -691221 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -699288 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -699288 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -719971 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -719971 microseconds.  Ignoring time.
+Nmap scan report for 175.45.176.8
+Host is up (0.28s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  ISC BIND 9.11.4-P2 (RedHat Enterprise Linux 8)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (98%), Linux 3.18 (98%), Linux 3.2 - 4.9 (98%), Apple macOS 10.13 (High Sierra) (Darwin 17.0.0) (97%), Adtran 424RG FTTH gateway (97%), Apple TV 5 (97%), Apple iOS 11.0 (97%), LG Bp430 Blu-ray Player (97%), Linux 2.6.22 - 2.6.36 (97%), Linux 2.6.32 (97%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 24.624 days (since Wed Aug 25 11:51:56 2021)
+Service Info: OS: Linux; CPE: cpe:/o:redhat:enterprise_linux:8
+
+Nmap scan report for 175.45.176.9
+Host is up (0.29s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  ISC BIND 9.11.4-P2 (RedHat Enterprise Linux 8)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|storage-misc|specialized
+Running (JUST GUESSING): Linux 3.X|4.X (92%), HP embedded (88%), Crestron 2-Series (87%)
+OS CPE: cpe:/o:linux:linux_kernel:3.13 cpe:/o:linux:linux_kernel:4 cpe:/h:hp:p2000_g3 cpe:/o:crestron:2_series
+Aggressive OS guesses: Linux 3.13 (92%), Linux 3.10 - 4.11 (90%), Linux 3.18 (90%), Linux 3.2 - 4.9 (90%), HP P2000 G3 NAS device (88%), Crestron XPanel control system (87%), Linux 3.16 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 17.136 days (since Wed Sep  1 23:34:08 2021)
+Service Info: OS: Linux; CPE: cpe:/o:redhat:enterprise_linux:8
+
+Nmap scan report for 175.45.176.10
+Host is up.
+All 10000 scanned ports on 175.45.176.10 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.11
+Host is up.
+All 10000 scanned ports on 175.45.176.11 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.12
+Host is up.
+All 10000 scanned ports on 175.45.176.12 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.13
+Host is up.
+All 10000 scanned ports on 175.45.176.13 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.14
+Host is up.
+All 10000 scanned ports on 175.45.176.14 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.15
+Host is up (0.30s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  ISC BIND 9.11.4-P2 (RedHat Enterprise Linux 8)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 (98%), Linux 3.10 - 3.16 (98%), Linux 4.0 (98%), Linux 3.10 - 3.12 (98%), Linux 4.4 (98%), Linux 4.9 (98%), Linux 3.18 (98%), Linux 2.6.32 (96%), Linux 2.6.39 (96%), Dish Network Hopper media device (96%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 38.187 days (since Wed Aug 11 22:21:10 2021)
+Service Info: OS: Linux; CPE: cpe:/o:redhat:enterprise_linux:8
+
+Nmap scan report for 175.45.176.16
+Host is up (0.27s latency).
+All 10000 scanned ports on 175.45.176.16 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.17
+Host is up.
+All 10000 scanned ports on 175.45.176.17 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.18
+Host is up.
+All 10000 scanned ports on 175.45.176.18 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.19
+Host is up.
+All 10000 scanned ports on 175.45.176.19 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.20
+Host is up (0.29s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+25/tcp open  smtp    Postfix smtpd
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: media device|specialized|general purpose
+Running: Crestron embedded, Wago Kontakttechnik embedded, Linux 2.4.X
+OS CPE: cpe:/h:crestron:mpc-m5 cpe:/h:wago_kontakttechnik:750-852 cpe:/o:linux:linux_kernel:2.4.26
+OS details: Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC, Linux 2.4.26 (Slackware 10.0.0)
+Uptime guess: 6.495 days (since Sun Sep 12 14:57:01 2021)
+Service Info: Host:  silibank.net.kp
+
+Nmap scan report for 175.45.176.21
+Host is up (0.29s latency).
+Not shown: 9998 filtered ports
+PORT     STATE SERVICE         VERSION
+443/tcp  open  ssl/https?
+8888/tcp open  sun-answerbook?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: firewall|general purpose
+Running: Fortinet embedded, Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Fortinet FortiGate-50B or 310B firewall, Linux 2.6.18 - 2.6.22
+Uptime guess: 0.247 days (since Sat Sep 18 20:54:45 2021)
+
+Nmap scan report for 175.45.176.22
+Host is up (0.28s latency).
+Not shown: 9998 filtered ports
+PORT     STATE SERVICE         VERSION
+443/tcp  open  ssl/https?
+8888/tcp open  sun-answerbook?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized
+Running: Crestron 2-Series
+OS CPE: cpe:/o:crestron:2_series
+OS details: Crestron XPanel control system
+Uptime guess: 0.262 days (since Sat Sep 18 20:32:38 2021)
+
+Nmap scan report for 175.45.176.23
+Host is up.
+All 10000 scanned ports on 175.45.176.23 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.24
+Host is up.
+All 10000 scanned ports on 175.45.176.24 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.25
+Host is up.
+All 10000 scanned ports on 175.45.176.25 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.26
+Host is up.
+All 10000 scanned ports on 175.45.176.26 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.27
+Host is up.
+All 10000 scanned ports on 175.45.176.27 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.28
+Host is up (0.30s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd (before 2.0.8) or WU-FTPD
+Too many fingerprints match this host to give specific OS details
+Service Info: Host: star
+
+Nmap scan report for 175.45.176.29
+Host is up (0.30s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd (before 2.0.8) or WU-FTPD
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: proxy server|general purpose
+Running (JUST GUESSING): Blue Coat embedded (85%), OpenBSD 4.X (85%)
+OS CPE: cpe:/h:bluecoat:packetshaper cpe:/o:openbsd:openbsd:4.0
+Aggressive OS guesses: Blue Coat PacketShaper appliance (85%), OpenBSD 4.0 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: Host: star
+
+Nmap scan report for 175.45.176.30
+Host is up (0.29s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd (before 2.0.8) or WU-FTPD
+Too many fingerprints match this host to give specific OS details
+Service Info: Host: star
+
+Nmap scan report for 175.45.176.31
+Host is up.
+All 10000 scanned ports on 175.45.176.31 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.32
+Host is up (0.29s latency).
+Not shown: 9998 filtered ports
+PORT     STATE SERVICE             VERSION
+3225/tcp open  ssl/fcip-port?
+7443/tcp open  ssl/oracleas-https?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Synology DiskStation Manager 5.2-5644 (98%), Linux 2.6.32 - 3.10 (98%), Linux 2.6.32 - 3.13 (98%), Linux 2.6.32 - 3.9 (98%), Linux 2.6.32 (97%), Linux 3.2 - 4.9 (97%), Linux 3.7 - 3.10 (97%), Linux 3.8 - 4.14 (97%), Linux 4.4 - 4.9 (97%), QNAP QTS 4.0 - 4.2 (97%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.757 days (since Sat Sep 18 08:39:14 2021)
+
+Nmap scan report for 175.45.176.33
+Host is up.
+All 10000 scanned ports on 175.45.176.33 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.34
+Host is up.
+All 10000 scanned ports on 175.45.176.34 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.35
+Host is up.
+All 10000 scanned ports on 175.45.176.35 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.36
+Host is up.
+All 10000 scanned ports on 175.45.176.36 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.37
+Host is up.
+All 10000 scanned ports on 175.45.176.37 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.38
+Host is up.
+All 10000 scanned ports on 175.45.176.38 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.39
+Host is up.
+All 10000 scanned ports on 175.45.176.39 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.40
+Host is up.
+All 10000 scanned ports on 175.45.176.40 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.41
+Host is up.
+All 10000 scanned ports on 175.45.176.41 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.42
+Host is up.
+All 10000 scanned ports on 175.45.176.42 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.43
+Host is up.
+All 10000 scanned ports on 175.45.176.43 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.44
+Host is up.
+All 10000 scanned ports on 175.45.176.44 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.45
+Host is up.
+All 10000 scanned ports on 175.45.176.45 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.46
+Host is up.
+All 10000 scanned ports on 175.45.176.46 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.47
+Host is up.
+All 10000 scanned ports on 175.45.176.47 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.48
+Host is up.
+All 10000 scanned ports on 175.45.176.48 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.49
+Host is up.
+All 10000 scanned ports on 175.45.176.49 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.50
+Host is up.
+All 10000 scanned ports on 175.45.176.50 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.51
+Host is up.
+All 10000 scanned ports on 175.45.176.51 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.52
+Host is up.
+All 10000 scanned ports on 175.45.176.52 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.53
+Host is up.
+All 10000 scanned ports on 175.45.176.53 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.54
+Host is up.
+All 10000 scanned ports on 175.45.176.54 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.55
+Host is up.
+All 10000 scanned ports on 175.45.176.55 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.56
+Host is up.
+All 10000 scanned ports on 175.45.176.56 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.57
+Host is up.
+All 10000 scanned ports on 175.45.176.57 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.58
+Host is up.
+All 10000 scanned ports on 175.45.176.58 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.59
+Host is up.
+All 10000 scanned ports on 175.45.176.59 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.60
+Host is up.
+All 10000 scanned ports on 175.45.176.60 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.61
+Host is up.
+All 10000 scanned ports on 175.45.176.61 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.62
+Host is up.
+All 10000 scanned ports on 175.45.176.62 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.63
+Host is up.
+All 10000 scanned ports on 175.45.176.63 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.64
+Host is up.
+All 10000 scanned ports on 175.45.176.64 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.65
+Host is up.
+All 10000 scanned ports on 175.45.176.65 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.66
+Host is up.
+All 10000 scanned ports on 175.45.176.66 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.67
+Host is up (0.28s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd (PHP 5.6.2)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.32 (98%), Linux 2.6.39 (98%), Linux 2.6.32 or 3.10 (98%), Linux 3.10 (98%), Linux 3.4 (98%), Synology DiskStation Manager 5.1 (98%), WatchGuard Fireware 11.8 (98%), Linux 2.6.32 - 2.6.39 (98%), Linux 3.1 - 3.2 (98%), Linux 3.10 - 3.16 (96%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 2.844 days (since Thu Sep 16 07:19:35 2021)
+
+Nmap scan report for 175.45.176.68
+Host is up (0.28s latency).
+Not shown: 9998 filtered ports
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http       Apache httpd
+443/tcp open  ssl/https?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.18 - 2.6.22
+Uptime guess: 16.191 days (since Thu Sep  2 22:59:40 2021)
+
+Nmap scan report for 175.45.176.69
+Host is up (0.28s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.2.15 ((RedStar4.0))
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized
+Running: Crestron 2-Series
+OS CPE: cpe:/o:crestron:2_series
+OS details: Crestron XPanel control system
+Uptime guess: 13.222 days (since Sun Sep  5 22:15:39 2021)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 175.45.176.70
+Host is up.
+All 10000 scanned ports on 175.45.176.70 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.71
+Host is up.
+All 10000 scanned ports on 175.45.176.71 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.72
+Host is up (0.28s latency).
+Not shown: 9986 closed ports
+PORT     STATE    SERVICE            VERSION
+80/tcp   open     http               Microsoft IIS httpd 7.5
+135/tcp  filtered msrpc
+136/tcp  filtered profile
+137/tcp  filtered netbios-ns
+138/tcp  filtered netbios-dgm
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http           Microsoft IIS httpd 7.5
+445/tcp  filtered microsoft-ds
+517/tcp  filtered talk
+518/tcp  filtered ntalk
+593/tcp  filtered http-rpc-epmap
+1433/tcp open     ms-sql-s           Microsoft SQL Server 2000 8.00.311; RTMa
+3389/tcp open     ssl/ms-wbt-server?
+4444/tcp filtered krb524
+Aggressive OS guesses: Microsoft Windows 8.1 Update 1 (92%), Microsoft Windows 7 SP1 (92%), OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (91%), Aruba A800 wireless LAN switch (91%), Cisco MARS 50 firewall version 4.2.1 (91%), Linux 2.4.21 (SuSE 9.0) (91%), Linux 2.4.9 (Red Hat Enterprise Linux 2.1 AS) (91%), ZyXEL NSA-200 NAS device (91%), Sun Solaris 2.6 (90%), Sun Solaris 7 (SPARC) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 12.019 days (since Tue Sep  7 03:08:26 2021)
+Network Distance: 19 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 175.45.176.73
+Host is up (0.30s latency).
+Not shown: 9998 filtered ports
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http       Apache httpd 2.2.15 ((RedStar4.0))
+443/tcp open  ssl/https?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.32 (98%), Linux 2.6.32 - 2.6.39 (98%), Linux 2.6.32 - 3.1 (98%), Linux 2.6.39 (98%), Linux 3.10 (98%), Linux 3.11 (98%), Linux 3.2 (98%), Linux 3.3 (98%), Linux 3.4 - 3.10 (98%), Linux 3.5 (98%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 7.764 days (since Sat Sep 11 09:14:56 2021)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 175.45.176.74
+Host is up.
+All 10000 scanned ports on 175.45.176.74 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.75
+Host is up (0.30s latency).
+Not shown: 9998 filtered ports
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http       Apache httpd 2.2.15 ((RedStar4.0))
+443/tcp open  ssl/https?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized
+Running: Crestron 2-Series
+OS CPE: cpe:/o:crestron:2_series
+OS details: Crestron XPanel control system
+Uptime guess: 5.696 days (since Mon Sep 13 10:53:24 2021)
+TCP Sequence Prediction: Difficulty=242 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 175.45.176.76
+Host is up (0.28s latency).
+Not shown: 9998 filtered ports
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http       Apache httpd 2.2.15 ((RedStar4.0))
+443/tcp open  ssl/https?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized
+Running: Crestron 2-Series
+OS CPE: cpe:/o:crestron:2_series
+OS details: Crestron XPanel control system
+Uptime guess: 0.198 days (since Sat Sep 18 22:49:43 2021)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 175.45.176.77
+Host is up (0.28s latency).
+Not shown: 9999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd (PHP 5.6.2)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP adapter|general purpose
+Running: Cisco embedded, Linux 2.6.X
+OS CPE: cpe:/h:cisco:unified_call_manager cpe:/o:linux:linux_kernel:2.6
+OS details: Cisco Unified Communications Manager VoIP adapter, Linux 2.6.18 - 2.6.22, Linux 2.6.26 (PCLinuxOS)
+Uptime guess: 6.132 days (since Mon Sep 13 00:25:28 2021)
+
+Nmap scan report for 175.45.176.78
+Host is up (3.1s latency).
+All 10000 scanned ports on 175.45.176.78 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.79
+Host is up (0.28s latency).
+Not shown: 9998 filtered ports
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http       Apache httpd (PHP 5.3.5)
+443/tcp open  ssl/https?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP adapter|general purpose
+Running: Cisco embedded, Linux 2.6.X
+OS CPE: cpe:/h:cisco:unified_call_manager cpe:/o:linux:linux_kernel:2.6
+OS details: Cisco Unified Communications Manager VoIP adapter, Linux 2.6.18 - 2.6.22, Linux 2.6.26 (PCLinuxOS)
+Uptime guess: 35.999 days (since Sat Aug 14 03:36:18 2021)
+
+Nmap scan report for 175.45.176.80
+Host is up (0.28s latency).
+Not shown: 9997 filtered ports
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx 1.18.0
+110/tcp open  pop3?
+443/tcp open  ssl/http nginx 1.18.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (98%), Linux 3.18 (98%), Linux 3.2 - 4.9 (98%), Apple macOS 10.12.1 (Sierra) (Darwin 16.1.0) (97%), Apple macOS 10.13 (High Sierra) (Darwin 17.0.0) (97%), Adtran 424RG FTTH gateway (97%), Apple TV 5 (97%), Apple iOS 11.0 (97%), Apple macOS 10.12 (Sierra) (Darwin 16.0.0 - 16.6.0) (97%), Apple macOS 10.12 (Sierra) (Darwin 16.1.0) (97%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 33.529 days (since Mon Aug 16 14:53:09 2021)
+
+Nmap scan report for 175.45.176.81
+Host is up (0.28s latency).
+Not shown: 9998 filtered ports
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx 1.18.0
+443/tcp open  ssl/http nginx 1.18.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: media device|general purpose|specialized
+Running: Apple Apple TV 5.X, Apple Mac OS X 10.7.X, Crestron 2-Series
+OS CPE: cpe:/a:apple:apple_tv:5.2.1 cpe:/a:apple:apple_tv:5.3 cpe:/o:apple:mac_os_x:10.7.4 cpe:/o:crestron:2_series
+OS details: Apple TV 5.2.1 or 5.3, Apple Mac OS X 10.7.4 (Lion) (Darwin 11.4.2), Crestron XPanel control system
+Uptime guess: 45.271 days (since Wed Aug  4 21:04:30 2021)
+
+Nmap scan report for 175.45.176.82
+Host is up.
+All 10000 scanned ports on 175.45.176.82 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.83
+Host is up (0.28s latency).
+Not shown: 9998 filtered ports
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http       Apache httpd 2.2.15 ((RedStar4.0))
+443/tcp open  ssl/https?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.32 (98%), Linux 2.6.32 - 2.6.39 (98%), Linux 2.6.32 - 3.1 (98%), Linux 2.6.39 (98%), Linux 3.10 (98%), Linux 3.11 (98%), Linux 3.2 (98%), Linux 3.3 (98%), Linux 3.4 - 3.10 (98%), Linux 3.5 (98%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 7.764 days (since Sat Sep 11 09:14:56 2021)
+
+Nmap scan report for 175.45.176.84
+Host is up.
+All 10000 scanned ports on 175.45.176.84 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.85
+Host is up (0.28s latency).
+Not shown: 9998 filtered ports
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http       Apache httpd 2.2.15 ((RedStar4.0))
+443/tcp open  ssl/https?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.32 (98%), Linux 2.6.32 - 2.6.39 (98%), Linux 2.6.32 - 3.1 (98%), Linux 2.6.39 (98%), Linux 3.10 (98%), Linux 3.11 (98%), Linux 3.2 (98%), Linux 3.3 (98%), Linux 3.4 - 3.10 (98%), Linux 3.5 (98%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 5.696 days (since Mon Sep 13 10:53:24 2021)
+
+Nmap scan report for 175.45.176.86
+Host is up.
+All 10000 scanned ports on 175.45.176.86 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.87
+Host is up.
+All 10000 scanned ports on 175.45.176.87 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.88
+Host is up.
+All 10000 scanned ports on 175.45.176.88 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.89
+Host is up.
+All 10000 scanned ports on 175.45.176.89 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.90
+Host is up.
+All 10000 scanned ports on 175.45.176.90 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.91
+Host is up (0.28s latency).
+Not shown: 9998 filtered ports
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx 1.18.0
+443/tcp open  ssl/http nginx 1.18.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: media device|specialized|general purpose
+Running: Crestron embedded, Wago Kontakttechnik embedded, Linux 2.4.X
+OS CPE: cpe:/h:crestron:mpc-m5 cpe:/h:wago_kontakttechnik:750-852 cpe:/o:linux:linux_kernel:2.4.26
+OS details: Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC, Linux 2.4.26 (Slackware 10.0.0)
+Uptime guess: 45.271 days (since Wed Aug  4 21:04:30 2021)
+
+Nmap scan report for 175.45.176.92
+Host is up.
+All 10000 scanned ports on 175.45.176.92 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.93
+Host is up.
+All 10000 scanned ports on 175.45.176.93 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.94
+Host is up.
+All 10000 scanned ports on 175.45.176.94 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.95
+Host is up.
+All 10000 scanned ports on 175.45.176.95 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.96
+Host is up.
+All 10000 scanned ports on 175.45.176.96 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.97
+Host is up.
+All 10000 scanned ports on 175.45.176.97 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.98
+Host is up.
+All 10000 scanned ports on 175.45.176.98 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.99
+Host is up.
+All 10000 scanned ports on 175.45.176.99 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.100
+Host is up.
+All 10000 scanned ports on 175.45.176.100 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.101
+Host is up.
+All 10000 scanned ports on 175.45.176.101 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.102
+Host is up.
+All 10000 scanned ports on 175.45.176.102 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.103
+Host is up.
+All 10000 scanned ports on 175.45.176.103 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.104
+Host is up.
+All 10000 scanned ports on 175.45.176.104 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.105
+Host is up.
+All 10000 scanned ports on 175.45.176.105 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.106
+Host is up.
+All 10000 scanned ports on 175.45.176.106 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.107
+Host is up.
+All 10000 scanned ports on 175.45.176.107 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.108
+Host is up.
+All 10000 scanned ports on 175.45.176.108 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.109
+Host is up.
+All 10000 scanned ports on 175.45.176.109 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.110
+Host is up.
+All 10000 scanned ports on 175.45.176.110 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.111
+Host is up.
+All 10000 scanned ports on 175.45.176.111 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.112
+Host is up.
+All 10000 scanned ports on 175.45.176.112 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.113
+Host is up.
+All 10000 scanned ports on 175.45.176.113 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.114
+Host is up.
+All 10000 scanned ports on 175.45.176.114 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.115
+Host is up.
+All 10000 scanned ports on 175.45.176.115 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.116
+Host is up.
+All 10000 scanned ports on 175.45.176.116 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.117
+Host is up.
+All 10000 scanned ports on 175.45.176.117 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.118
+Host is up.
+All 10000 scanned ports on 175.45.176.118 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.119
+Host is up.
+All 10000 scanned ports on 175.45.176.119 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.120
+Host is up.
+All 10000 scanned ports on 175.45.176.120 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.121
+Host is up.
+All 10000 scanned ports on 175.45.176.121 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.122
+Host is up.
+All 10000 scanned ports on 175.45.176.122 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.123
+Host is up.
+All 10000 scanned ports on 175.45.176.123 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.124
+Host is up.
+All 10000 scanned ports on 175.45.176.124 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.125
+Host is up.
+All 10000 scanned ports on 175.45.176.125 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.126
+Host is up.
+All 10000 scanned ports on 175.45.176.126 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 175.45.176.127
+Host is up.
+All 10000 scanned ports on 175.45.176.127 are filtered
+Too many fingerprints match this host to give specific OS details
+
