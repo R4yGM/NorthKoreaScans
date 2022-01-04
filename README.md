@@ -56,7 +56,7 @@ most of the scans here are under the 10,000 ports because otherwise if i scanned
 
 ### Statistics
 
-currently not done 
+https://colab.research.google.com/drive/15n0ynh4ZsQGJ4q8VwSO6ZJvAbKi1cKai
 
 ### File naming
 
