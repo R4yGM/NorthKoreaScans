@@ -1,6 +1,6 @@
 [![GitHub stars](https://badgen.net/github/stars/R4yGM/NorthKoreaScans)](https://github.com/R4yGM/NorthKoreaScans)
 [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/WmzasES)
-[![Maintenance](https://img.shields.io/badge/Running%20VPS%20scanners-5-blue.svg)](https://github.com/R4yGM/NorthKoreaScans)
+[![Maintenance](https://img.shields.io/badge/Running%20VPS%20scanners-0-blue.svg)](https://github.com/R4yGM/NorthKoreaScans)
 
 <br />
 <p align="center">
@@ -46,13 +46,24 @@
 
 ## About The Project
 
-I've started getting curious about the north korean internet and by doing some research i've found about they have only a very few IP addreses
+I started this project purely out of curiosity about the North Korean internet to explore how digitally isolated they are. After digging around, I found out that they control a tiny slice of the internet, just four subnets (from 175.45.176.0/24 to 175.45.179.0/24) under the name 'Ryugyong-dong', which is basically one /22 subnet with only 1,024 IP addresses for the whole country.
 
-currently they have four IPv4 subnets named "Ryugyong-dong", that are 175.45.176.0/24, 175.45.177.0/24, 175.45.178.0/24, 175.45.179.0/24, and by putting all togheter we can find that their entire subnet is 175.45.176.0/22 that contains in total 1,024 IPs
+I noticed that there were existing scans, but they were pretty old, so I decided to set up my own. I'm running frequent scans from VPS servers all over the world to see what's accessible and if they're blocking specific countries.
 
-doing my research i've found that also other people scanned the entire north korean network but all the scans were very old and outdated, so i wanted to make a repo that contained a lot of different daily scans of their network from different sides of the world to see if their network blocks traffic from specific countries
+I'm mostly scanning the top 10,000 ports because scanning all 65,535 ports takes forever, and my tests showed they don't have much running on the high ports anyway.
 
-most of the scans here are under the 10,000 ports because otherwise if i scanned all the 65,535 ports the scan would took too much and from some test scans i found out that they don't have many open high ports
+### Brief Insights
+
+Checking the logs, I found some cool details about their network:
+
+*   **Operating Systems**: It's a mix. I saw their own **Red Star OS 4.0** (running Apache 2.2.15), plus some Linux distros and Windows Server (IIS 7.5).
+*   **Web Services**: The KCNA (Korean Central News Agency) website is hosted right there.
+*   **Network Gear**: Lots of **Cisco** routers and switches showing up, exposing SSH and Telnet.
+*   **File Transfer**: Found some FTP servers running `vsftpd` or `WU-FTPD`.
+*   **Remote Access**: RDP (port 3389) is open on several Windows servers, so they're definitely managing these remotely.
+*   **Common Ports**: The usual suspects are open: **80**, **443**, **8888**, **21**, and **23**.
+*   **Surprises**: I even spotted some unexpected devices like **Apple TV**, **Sony Ericsson** phones, and **Crestron** automation systems.
+*   **Infrastructure**: Saw signs of Synology storage and maybe some VMware/VirtualBox virtualization.
 
 ### Statistics
 
@@ -60,15 +71,15 @@ https://colab.research.google.com/drive/15n0ynh4ZsQGJ4q8VwSO6ZJvAbKi1cKai
 
 ### File naming
 
-All the scans have a specific name to make them unique and differentiate to the other scans by including on the name the year, month, hour and country code of the VPS
+I named the files in a way that makes them easy to identify. The name includes the date, hour, and the country code of the VPS I used.
 
-Example : `2021-09-11_20_scan_SG.txt`
+Example: `2021-09-11_20_scan_SG.txt`
 
-on overall it's pretty self explanatory, it's just a normal date with at the end a country code which in this example is Singapore
+It's pretty self-explanatory: date first, then the country code (SG for Singapore in this case).
 
 ### VPS servers
 
-this repo contains scans that are made from vps servers situated in different countries that are : US,UK,SG,DE,NL
+I'm running these scans from VPS servers in a few different countries: United States (US), United Kingdom (UK), Singapore (SG), Germany (DE), and Netherlands (NL).
 
 
 ## Install all the scans
@@ -82,7 +93,7 @@ if you would like to have a copy of all the files about the scans to do some res
 
 ## Contributing
 
-If you want to contribute by adding some of your own scans into the repo it would be appreaciated :)
+If you want to contribute by adding your own scans, that would be awesome :)
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/yourscan`)
